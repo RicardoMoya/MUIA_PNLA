@@ -1,0 +1,4 @@
+spacy>=3.7,<4.0
+notebook>=7.0
+ipykernel>=6.0
+click>=8.0
