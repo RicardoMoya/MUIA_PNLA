@@ -14,6 +14,8 @@ Repositorio de materiales didácticos de la asignatura **Procesamiento del Lengu
 | `04_actividad_practica_normalizacion.ipynb` | Actividad práctica: construcción de un pipeline de normalización |
 | `05_BoW_Tfidf.ipynb` | Vectorización de texto: Bag of Words y TF-IDF con scikit-learn y Gensim |
 | `06_metricas_clasificacion.ipynb` | Métricas de evaluación para modelos de clasificación: Accuracy, Precision, Recall, F-Score y ROC-AUC |
+| `07_clasificacion_textos_ejemplo.ipynb` | Pipeline completo de clasificación de textos: normalización, BoW, entrenamiento y evaluación de cuatro clasificadores |
+| `008_inferencia_modelo_clasificación_textos.ipynb` | Inferencia sobre un texto nuevo con el vectorizador y el modelo exportados en el notebook 07 |
 
 ---
 
