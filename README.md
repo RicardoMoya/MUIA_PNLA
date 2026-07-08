@@ -15,7 +15,11 @@ Repositorio de materiales didácticos de la asignatura **Procesamiento del Lengu
 | `05_BoW_Tfidf.ipynb` | Vectorización de texto: Bag of Words y TF-IDF con scikit-learn y Gensim |
 | `06_metricas_clasificacion.ipynb` | Métricas de evaluación para modelos de clasificación: Accuracy, Precision, Recall, F-Score y ROC-AUC |
 | `07_clasificacion_textos_ejemplo.ipynb` | Pipeline completo de clasificación de textos: normalización, BoW, entrenamiento y evaluación de cuatro clasificadores |
-| `008_inferencia_modelo_clasificación_textos.ipynb` | Inferencia sobre un texto nuevo con el vectorizador y el modelo exportados en el notebook 07 |
+| `08_inferencia_modelo_clasificacion_textos.ipynb` | Inferencia sobre un texto nuevo con el vectorizador y el modelo exportados en el notebook 07 |
+| `09_actividad_practica_clasificacion_textos.ipynb` | Actividad práctica: pipeline de clasificación de textos sobre un dataset de soporte telco |
+| `10_LSI_ejemplo_basico.ipynb` | Latent Semantic Index/Analysis (LSI): teoría y ejemplo básico con Gensim |
+| `11_LDA_ejemplo_basico.ipynb` | Latent Dirichlet Allocation (LDA): teoría y ejemplo básico con Gensim |
+| `12_LDA_Topic_Modeling_ejemplo_noticias.ipynb` | Topic Modeling con LDA sobre un corpus de noticias: selección del número óptimo de temas mediante coherencia |
 
 ---
 
@@ -66,10 +70,11 @@ source .venv/bin/activate
 uv pip install -r requirements.txt
 ```
 
-### 5. Descargar el modelo de español de spaCy
+### 5. Descargar los modelos de spaCy
 
 ```bash
 python -m spacy download es_core_news_sm
+python -m spacy download en_core_web_sm
 ```
 
 ### 6. Registrar el entorno como kernel de Jupyter
@@ -90,8 +95,7 @@ Si da algún error en Windows, abrir el Notebook con el siguiente comando:
 python -m jupyter notebook
 ```
 
-
-Al crear o abrir un notebook, selecciona el kernel **Python (NLP)** para asegurarte de que el entorno con spaCy está activo.
+Al crear o abrir un notebook, selecciona el kernel **Python (PNLT)** para asegurarte de que el entorno con spaCy está activo.
 
 ---
 
