@@ -162,3 +162,4 @@ docs/_build/
 .github/
 .claude/
 *_x_*.ipynb
+*_colab.ipynb
