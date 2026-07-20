@@ -1,4 +1,4 @@
-# MUIA_PNLT — Procesamiento del Lenguaje Natural
+# MUIA_PNLA — Procesamiento del Lenguaje Natural
 
 Repositorio de materiales didácticos de la asignatura **Procesamiento del Lenguaje Natural** del Máster Universitario en Inteligencia Artificial (MUIA) de U-tad.
 
@@ -34,7 +34,7 @@ Repositorio de materiales didácticos de la asignatura **Procesamiento del Lengu
 
 > **Requisito previo:** todos los comandos deben ejecutarse desde la carpeta raíz del repositorio. Si acabas de clonar el proyecto, navega hasta ella antes de continuar:
 > ```bash
-> cd MUIA_PNLT
+> cd MUIA_PNLA
 > ```
 
 Los pasos siguientes utilizan [**uv**](https://github.com/astral-sh/uv), una herramienta moderna y rápida para gestionar entornos e instalar dependencias en Python.
@@ -87,7 +87,7 @@ python -m spacy download en_core_web_sm
 ### 6. Registrar el entorno como kernel de Jupyter
 
 ```bash
-python -m ipykernel install --user --name .venv --display-name "Python (PNLT)"
+python -m ipykernel install --user --name .venv --display-name "Python (PNLA)"
 ```
 
 ### 7. Abrir Jupyter Notebook
@@ -102,7 +102,7 @@ Si da algún error en Windows, abrir el Notebook con el siguiente comando:
 python -m jupyter notebook
 ```
 
-Al crear o abrir un notebook, selecciona el kernel **Python (PNLT)** para asegurarte de que el entorno con spaCy está activo.
+Al crear o abrir un notebook, selecciona el kernel **Python (PNLA)** para asegurarte de que el entorno con spaCy está activo.
 
 ---
 
